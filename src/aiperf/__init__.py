@@ -15,3 +15,4 @@ try:
     from aiperf._build_info import COMMIT_SHA as __commit_sha__
 except ImportError:
     __commit_sha__ = "unknown"
+# ci-measure: no-op comment for fork-only CI timing
